@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color:#F6DDCC;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    width: 450px;
+    background-color: white;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.add-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #F1C40F;
+    color: #A93226;
+
+}
+.add-button :hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.del-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #F1C40F;
+    color: #A93226;
+}
+.del-button :hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.list-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.list-div .list-inner{
+    list-style-type: none;
+    font-size: 30px;
+    color: #A93226;
+}
+.li-item{
+    padding: 0.5rem;
+	border-bottom: 4px solid #A93226;
+	margin-bottom: 1.5rem;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: none;
+    background-color: #F1C40F;
+    color: #A93226;
+    margin: 7px;
+    /* border-radius: 25px; */
+}
